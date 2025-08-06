@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -12,8 +12,8 @@ function Freebook() {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const res = await axios.get("http://localhost:4001/book");
-
+        const res = await axios.get("http://localhost:4000/book");
+        console.log("res", res.data);
         const data = res.data.filter((data) => data.category === "Free");
         console.log(data);
         setBook(data);
@@ -60,18 +60,21 @@ function Freebook() {
   };
   return (
     <>
-      <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
+      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
         <div>
           <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
           <p>
-            Discover a world of stories and knowledge at our bookstore. Offering a curated selection of novels, classics, and new releases, we invite readers of all ages to explore and enjoy. Find your next favorite book and let your imagination soar.
+            Discover a world of stories and knowledge at our bookstore. Offering
+            a curated selection of novels, classics, and new releases, we invite
+            readers of all ages to explore and enjoy. Find your next favorite
+            book and let your imagination soar.
           </p>
         </div>
 
-        <div>
-          <Slider {...settings}>
+        <div className="py-8 overflow-x-visible">
+          <Slider {...settings} key={book.length}>
             {book.map((item) => (
-              <Cards item={item} key={item.id} />
+              <Cards item={item} key={item._id} />
             ))}
           </Slider>
         </div>

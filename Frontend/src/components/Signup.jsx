@@ -1,4 +1,3 @@
-import React from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import Login from "./Login";
 import { useForm } from "react-hook-form";
@@ -21,7 +20,7 @@ function Signup() {
       password: data.password,
     };
     await axios
-      .post("http://localhost:4001/user/signup", userInfo)
+      .post("http://localhost:4000/user/signup", userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {
@@ -59,6 +58,7 @@ function Signup() {
                   type="text"
                   placeholder="Enter your fullname"
                   className="w-80 px-3 py-1 border rounded-md outline-none"
+                  autoComplete="name"
                   {...register("fullname", { required: true })}
                 />
                 <br />
@@ -76,6 +76,7 @@ function Signup() {
                   type="email"
                   placeholder="Enter your email"
                   className="w-80 px-3 py-1 border rounded-md outline-none"
+                  autoComplete="email"
                   {...register("email", { required: true })}
                 />
                 <br />
@@ -90,9 +91,10 @@ function Signup() {
                 <span>Password</span>
                 <br />
                 <input
-                  type="text"
+                  type="password"
                   placeholder="Enter your password"
                   className="w-80 px-3 py-1 border rounded-md outline-none"
+                  autoComplete="new-password"
                   {...register("password", { required: true })}
                 />
                 <br />

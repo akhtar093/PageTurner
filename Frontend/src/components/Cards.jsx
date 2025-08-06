@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from "prop-types";
 
 function Cards({ item }) {
   return (
@@ -26,5 +26,16 @@ function Cards({ item }) {
     </>
   );
 }
+
+// ✅ Define prop types here
+Cards.propTypes = {
+  item: PropTypes.shape({
+    name: PropTypes.string,
+    category: PropTypes.string,
+    title: PropTypes.string,
+    price: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    image: PropTypes.string,
+  }).isRequired,
+};
 
 export default Cards;

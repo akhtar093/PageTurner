@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Story Book",
+    "title": "A bookstore is a gateway to countless worlds.",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Music Book",
+    "title": "A bookstore is a gateway to countless worlds.",
+    "price": 100,
+    "category": "Song",
+    "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Sports Book",
+    "title": "A bookstore is a gateway to countless worlds.",
+    "price": 50,
+    "category": "Sports",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Comedy Book",
+    "title": "A bookstore is a gateway to countless worlds.",
+    "price": 0,
+    "category": "Entrainment",
+    "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Food Book",
+    "title": "A bookstore is a gateway to countless worlds.",
+    "price": 200,
+    "category": "Food",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Story Book",
+    "title": "A bookstore is a gateway to countless worlds.",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Story Book",
+    "title": "A bookstore is a gateway to countless worlds.",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Story Book",
+    "title": "A bookstore is a gateway to countless worlds.",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 9,
+    "name": "Story Book",
+    "title": "A bookstore is a gateway to countless worlds.",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 10,
+    "name": "Story Book",
+    "title": "A bookstore is a gateway to countless worlds.",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": 11,
+    "name": "Story Book",
+    "title": "A bookstore is a gateway to countless worlds.",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80"
+  }
+]
