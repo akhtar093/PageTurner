@@ -15,3 +15,7 @@ PageTurner is a free and open‑source e‑book reader app for Android. It lets 
 📱 Free version (ad-supported) and Pro version (ad-free) available on Google Play
 
 🛠️ Built with Java 8 lambdas using the RetroLambda library
+
+**🧾 License**
+
+Licensed under GPL‑3.0. You may contribute under the Apache 2.0 or a similar permissive license .
